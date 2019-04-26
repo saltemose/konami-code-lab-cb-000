@@ -18,7 +18,7 @@ function init() {
 index = 0
 function konamiCode(e){
   var key = e.key;
-  if (key == codes[index] && key === "a"){
+  if (key === codes[index] && key === "a"){
     alert ("Nice job inputting the code")
   }
   else if (key === codes[index]){
