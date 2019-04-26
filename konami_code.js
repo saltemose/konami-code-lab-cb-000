@@ -21,4 +21,8 @@ function konamiCode(e){
   if (key == codes[index] && key === "a"){
     alert ("Nice job inputting the code")
   }
+  else if (key === codes[index]){
+    index += 1
+  }
+  else {index = 0}
 }
